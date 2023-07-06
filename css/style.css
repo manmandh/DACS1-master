@@ -1584,7 +1584,6 @@ swiper-slide img {
     border-radius: 10px;
 }
 
-
 .container1 {
     background-color: #ddddda;
     display: flex;
@@ -1747,7 +1746,9 @@ swiper-slide img {
 
 
 
+
 /* Responsive Contact+About*/
+
 @media screen and (max-width: 768px) {
     .container_boxes {
         height: 100%;
@@ -1760,8 +1761,7 @@ swiper-slide img {
         width: calc(50% - 20px);
         margin: 10px 0;
     }
-}
-
+    
 .image_container {
     width: 100%;
     text-align: center;
@@ -1799,8 +1799,11 @@ swiper-slide img {
     margin-left: 50px;
 
 }
+}
+
 
 /* ------------------------------- */
+
 @media screen and (max-width: 1200px) {
     .container_dung {
         display: flex;
@@ -1845,6 +1848,6 @@ swiper-slide img {
 .massage_box{
     border-radius: 10px;
 }
-.send_text a{
+.send_text{
     border-radius: 10px;
 }
