@@ -1349,3 +1349,200 @@ textarea.massage_box::placeholder {
   .disabled {
     background-color: #ccc !important;
   }
+  /* --------------------------------------------------------------------------- */
+  
+  swiper-container {
+    width: 100%;
+    height: 100%;
+
+  }
+
+  swiper-slide {
+    text-align: center;
+    font-size: 18px;
+  
+    /* background-image: url(/Webgdgt/html/images/ab.webp); */
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .slide
+  {
+    height: 600px;
+    width: block;
+    margin-top: -160px;
+  }
+  .formabout
+  {
+    width: 70%;
+    height: 95%;
+    background-color: rgba(243, 236, 236, 0.5);
+    border-radius: 8%;
+
+  }
+  .formabout>h1{
+    display: block; 
+    text-align: center;
+    padding: 80px;
+    padding-top: 150px;
+    line-height: 50px;
+    color: #1f1e1e;
+  }
+  .format
+  {  position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    height: 100%;
+    background-color: rgba(238, 227, 227, 0.5);
+
+  }
+  .format>h1{
+    display: block; 
+    text-align: center;
+    padding: 80px;
+    padding-top: 150px;
+    line-height: 50px;
+    color: #fffcfc;
+  }
+  .container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+    background-color: #f0f0f0;
+  }
+
+  /* ------------------------------------------------------------------ */
+  
+  .container_dung {
+    width: 100%;
+    height: auto;
+ 
+    
+  }
+  
+  .box_dung {
+    float: right;
+    width: 30%;
+    height: 500px;
+    background-color: rgba(243, 236, 236, 0.1);
+    border-radius: 25%;
+ margin-right: 70px;
+ margin-bottom: 100px;
+    
+  }
+  
+  .box_dung img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .content_dung {
+    float: left;
+    width: 45%;
+    height: 200px;
+ 
+    margin-left: 200px;
+    margin-top: 40px;
+  }
+  
+  .content_dung>h1 {
+    font-size: 24px;
+    margin-bottom: 3px;
+  }
+  
+ .content_dung> p {
+    font-size: 16px;
+    line-height: 2;
+  }
+  /* --------------------------------------------------------------------- */
+  
+  .container_box
+  {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  
+  
+  .Tieu h1 {
+    font-size: 36px;
+    margin: 0;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  /* -------------------------------------------------------------------- */
+  .container_boxes {
+    display: flex;
+    width: 90%;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 70px;
+    margin-left: 20px;
+  
+  }
+  
+  .box_hd {
+    width: calc(30% - 20px);
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgba(245, 224, 224, 0.4);
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+  }
+  
+  .box_hd h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .box_hd p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+.image_container {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .image_container img {
+    max-width: 100%;
+    height: 350px;
+
+  }
+  
+  .text_container {
+    text-align: center;
+  }
+  
+  
+  .text_container p {
+    font-size: 26px;
+    line-height: 1.5;
+  }
