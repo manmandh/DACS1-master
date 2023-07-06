@@ -437,7 +437,7 @@ button {
     float: left;
 }
 
-.about_img::after {
+/* .about_img::after {
     content: '';
     position: absolute;
     background-color: #efefef;
@@ -449,7 +449,7 @@ button {
     z-index: -1;
     border-radius: 100%;
     top: -40px;
-}
+} */
 
 .services_section {
     width: 100%;
@@ -1546,3 +1546,24 @@ textarea.massage_box::placeholder {
     font-size: 26px;
     line-height: 1.5;
   }
+@media only screen and (max-width: 992px) {
+    .banner_taital {
+        margin-top: 200px;
+    }
+}
+
+@media only screen and (max-width: 772px) {
+    .about_section {
+
+        padding-bottom: 0px;
+    }
+}
+.image_6 {
+    border-radius: 10px;
+}
+.philosophy_box_main {
+    border-radius: 10px;
+}
+
+  
+  
